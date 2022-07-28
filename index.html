@@ -12,6 +12,19 @@
     <link rel="stylesheet" href="style/style.css">
     <script src="https://kit.fontawesome.com/b738201ba4.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <style>
+        @media screen and (max-width:576px) {
+            .carouselItemsHeight {
+                height: 350px;
+            }
+        }
+
+        @media screen and (min-width:576px) {
+            .carouselItemsHeight {
+                height: 500px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -22,7 +35,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Pro Edu</a>
                 <div class="d-flex d-none d-md-block d-lg-none ms-auto">
-                    <button class="btn btn-outline-success" type="button">Register</button>
+                    <button class="btn btn-outline-primary" type="button">Register</button>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -54,11 +67,67 @@
 
                     </ul>
                     <div class="d-flex">
-                        <button class="btn btn-outline-success" type="button">Register</button>
+                        <button class="btn btn-outline-primary" type="button">Register</button>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <!-- Add Carousel -->
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item carouselItemsHeight active">
+                    <img src="./images/cover/cover-1.png" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div>
+                            <h1 class="text-light">Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a
+                                page when looking at its layout..</p>
+
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carouselItemsHeight">
+                    <img src="./images/cover/cover-2.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div>
+                            <h1 class="text-light">Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a
+                                page when looking at its layout..</p>
+
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carouselItemsHeight">
+                    <img src="./images/cover/cover-3.jpg" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div>
+                            <h1 class="text-light">Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a
+                                page when looking at its layout..</p>
+
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
     </header>
 
