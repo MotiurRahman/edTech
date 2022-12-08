@@ -4,7 +4,7 @@
 
 # You can check out the following features and objectives
 
-- Here I have just designed a Home Page for digital education using pure HTML5 and CSS3
+- Here I have just designed a fully responsive Home Page for digital education using pure HTML5 and CSS3
 
 # The following technologies I have used to develop this website
 
